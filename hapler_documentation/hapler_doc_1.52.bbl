@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{ERIKSSON2008}
+N.~Eriksson, L.~Pachter, Y.~Mitsuya, S.~Rhee, C.~Wang, B.~Gharizadeh,
+  M.~Ronaghi, R.W. Shafer, and N.~Beerenwinkel.
+\newblock {Viral Population Estimation Using Pyrosequencing}.
+\newblock {\em PLoS Computational Biology}, 4(5):e1000074+, 2008.
+
+\bibitem{LI2009}
+H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
+  G.~Abecasis, and R.~Durbin.
+\newblock {The sequence alignment/map format and SAMtools}.
+\newblock {\em Bioinformatics}, 25(16):2078, 2009.
+
+\bibitem{ONEIL2011}
+S.~T. O'Neil and S.~J. Emrich.
+\newblock Robust haplotype reconstruction of eukaryotic read data with
+  {H}apler.
+\newblock In {\em ICCABS '11: Proceedings of the IEEE 1st International
+  Conference on Computational Advances in Bio and medical Sciences}, pages
+  141--146, 2011.
+
+\end{thebibliography}

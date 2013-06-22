@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: hapler_doc_1.52.aux
+The style file: plain.bst
+Database file #1: khap.bib
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            521 strings with 4727 characters,
+and the built_in function-call counts, 1536 in all, are:
+= -- 136
+> -- 109
+< -- 1
++ -- 43
+- -- 40
+* -- 133
+:= -- 261
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 45
+empty$ -- 95
+format.name$ -- 40
+if$ -- 307
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 26
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 86
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 11
+width$ -- 4
+write$ -- 35

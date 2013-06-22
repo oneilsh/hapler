@@ -1,0 +1,81 @@
+\relax 
+\@writefile{toc}{\contentsline {title}{Hapler Version 1.01}{1}}
+\@writefile{toc}{\authcount {2}}
+\@writefile{toc}{\contentsline {author}{Shawn T. O'Neil, Scott J. Emrich}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Overview}{3}}
+\newlabel{overview}{{1}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Requirements and Installation}{4}}
+\newlabel{requirementsAndInstallation}{{2}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Example Usage}{5}}
+\newlabel{exampleUsage}{{3}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Input and Options}{6}}
+\newlabel{inputAndOptions}{{4}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\texttt  {--alignment-type <\emph  {tigr} or sam>}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\texttt  {--allow-gaps <\emph  {false} or split>}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\texttt  {--help}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}\texttt  {--input <filename or \emph  {-}>}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}\texttt  {--maximize-one-read-haps <\emph  {true} or false>}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}\texttt  {--random-repetitions <integer>}}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}\texttt  {--show-alignments}}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}\texttt  {--snp-caller <\textit  {simple}, simplestrict, or 454>}}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}\texttt  {--snp-list <filename>}}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Output}{8}}
+\newlabel{output}{{5}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A bit of output produced by Hapler.}}{8}}
+\newlabel{haplerOutput}{{1}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Column 1 - Unique Haplotype Identifier}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Column 2 - Multiple Alignment Name}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Column 3 - Haplotype Block Number}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Column 4 - Minimum Number of Haploytypes Supported By Block}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Column 5 - Haplotype Number}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Column 6 - Number of Non-Redundant Sequences}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Column 7 - Number of Redundant Sequences}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Column 8 - Number of Defined SNPs Covered}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Column 9 - Number of Covered, Inconsistent SNPs}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.10}Column 10 - Number of Defined SNPs Not Covered}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.11}Column 11 - Start Position of Haplotype}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.12}Column 12 - End Position of Haplotype}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.13}Column 13 - Length of Haplotype}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.14}Column 14 - Number of Pieces Haplotype Is In}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.15}Column 15 - Average Sequence Coverage of Haplotype}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.16}Column 16 - Haplotype Consensus at SNP Positions}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.17}Column 17 - Full Haplotype Consensus}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.18}Column 18 - Reads In Haplotype}{11}}
+\citation{ONEIL2011}
+\citation{ERIKSSON2008}
+\citation{ONEIL2011}
+\citation{ONEIL2011}
+\citation{ONEIL2011}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Maximizing Quality}{12}}
+\newlabel{maximizingQuality}{{6}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Read Length and Coverage}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}SNP Calling and Error Correction}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Sampling Number}{13}}
+\citation{ONEIL2011}
+\citation{ERIKSSON2008}
+\@writefile{toc}{\contentsline {section}{\numberline {7}How it works}{14}}
+\newlabel{howItWorks}{{7}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Given a multiple alignment of reads (here showing only positions defined as SNPs), we want to create a conflict graph and minimally color it.}}{14}}
+\newlabel{exampleConflictGraph}{{2}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The minimum coloring problem is polynomial time in this case if we ensure that reads are contiguous, without ``gaps.'' This, however, means that mate-pair information cannot be fully used: we must associate mated reads with different graph nodes, such that they can possibly be associated with different haplotypes.}}{15}}
+\newlabel{matePairs}{{3}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces If there is more than one connected component in the conflict graph, no information exists to associate haplotypes from one connected component to another. Thus, Hapler only reconstructs haplotype regions for reads that are part of the same connected component, which form contigious ``haplotype blocks.'' Reads which occur between these and conflict with nothing are part of invariant regions; these are associated with a special ``non-variant'' haplotype for each multiple alignment (see Section 5\hbox {}).}}{15}}
+\newlabel{bicolor}{{4}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces There are many ways to minimally color a conflict graph; Hapler by default finds ways that also maximize the number of reads which are left as colors (haplotypes) unto themselves. In this example, the upper left read may be given two possible colors: Hapler forces the use of yellow. This can be turned off by using \texttt  {--maximize-one-read-haps false} (see Section 4\hbox {}). Even so, in general multiple solutions may still be possible: Hapler psuedo-randomly samples from these and only infers haplotypes for reads which always appear similarly colored. The number of such samples is controlled with the \texttt  {--random-repetitions} option.}}{15}}
+\newlabel{alternatecoloring}{{5}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Example TIGR Input Format}{17}}
+\newlabel{exampleTigrInputFormat}{{A}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Screenshot of example TIGR formatted input.}}{17}}
+\newlabel{exampleTIGR}{{6}{17}}
+\citation{LI2009}
+\bibstyle{plain}
+\bibdata{khap}
+\bibcite{ERIKSSON2008}{1}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Example SAM Input Format}{18}}
+\newlabel{exampleSamInputFormat}{{B}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Screenshot of example SAM formatted input.}}{18}}
+\newlabel{exampleSAM}{{7}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Example SNP Input Format}{18}}
+\newlabel{exampleSnpInputFormat}{{C}{18}}
+\bibcite{LI2009}{2}
+\bibcite{ONEIL2011}{3}

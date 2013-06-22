@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/profiler/1" version="0.9.1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Haplotyper.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/IOHandler.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/TIGRMultipleAlignmentParser.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Hungarian.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Haplotype.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Main.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/HaplotypeBlock.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/MultipleAlignment.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/SAMMultipleAlignmentParser.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Basic454SNPListCreator.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Sequence.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/GraphNode.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/SequenceStartPosLengthComparator.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/HapDAGNode.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/SNPPosComparator.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/SnpDAGNode.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/Reconstructor.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/FastaParser.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/BasicStrictAlignmentSNPListCreator.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/SNP.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/BasicAlignmentSNPListCreator.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/BasicStrict454SNPListCreator.java</file>
+        <file>file:/Users/soneil/Documents/research/bioInformatics/kHaplotyping/hapler/netbeans/Hapler/src/hapler/BinomialSNPListCreator.java</file>
+    </open-files>
+</project-private>

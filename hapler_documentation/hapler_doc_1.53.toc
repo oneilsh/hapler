@@ -1,0 +1,67 @@
+\contentsline {title}{Hapler Version 1.53}{1}
+\authcount {2}
+\contentsline {author}{Shawn T. O'Neil, Scott J. Emrich}{1}
+\contentsline {section}{\numberline {1}Overview}{4}
+\contentsline {section}{\numberline {2}Changelog}{5}
+\contentsline {section}{\numberline {3}Requirements and Installation}{6}
+\contentsline {section}{\numberline {4}Example Usage}{7}
+\contentsline {section}{\numberline {5}Input and Options}{9}
+\contentsline {subsection}{\numberline {5.1}\texttt {--input <filename or \emph {-}>}}{9}
+\contentsline {subsection}{\numberline {5.2}\texttt {--alignment-type <\emph {tigr} or sam>}}{9}
+\contentsline {subsection}{\numberline {5.3}\texttt {--help}}{9}
+\contentsline {subsection}{\numberline {5.4}\texttt {--maximize-one-read-haps <\emph {true} or false>}}{9}
+\contentsline {subsection}{\numberline {5.5}\texttt {--random-repetitions \emph {auto} or <integer>}}{9}
+\contentsline {subsection}{\numberline {5.6}\texttt {--max-repetitions <integer>}}{10}
+\contentsline {subsection}{\numberline {5.7}\texttt {--snp-caller <simple, \emph {simplestrict}, or 454>}}{10}
+\contentsline {subsection}{\numberline {5.8}\texttt {--snp-list <filename>}}{10}
+\contentsline {subsection}{\numberline {5.9}\texttt {--ground-truth <filename>}}{10}
+\contentsline {subsection}{\numberline {5.10}\texttt {--evaluate-contigs <filename>}}{11}
+\contentsline {subsection}{\numberline {5.11}\texttt {--compute-reconstructions <\emph {true} or false>}}{11}
+\contentsline {subsection}{\numberline {5.12}\texttt {--human-readable <\emph {true} or false>}}{11}
+\contentsline {subsection}{\numberline {5.13}\texttt {--show-alignments}}{11}
+\contentsline {subsection}{\numberline {5.14}\texttt {--version}}{11}
+\contentsline {section}{\numberline {6}Output}{12}
+\contentsline {subsection}{\numberline {6.1}Consensus Sequence Output Lines}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 1 - Unique Consensus Identifier}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 2 - Alignment Name}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 3 - Consensus Type}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 4 - Minimum Hapler Crossovers}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 5 - Maximized SNP Allele Support}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 6 - Minimized Unique Haplotype Regions Used}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 7 - Hapler Haplotype Regions Used}{13}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 8 - Consensus Sequence}{14}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 9 - Ground Truth Minimized Crossover Number}{14}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 10 - Ground Truth Minimized Unique Haplotypes Used}{14}
+\contentsline {subsubsection}{Consensus (\texttt {>} prefixed) Column 11 - Ground Truth Haplotypes Used}{14}
+\contentsline {subsection}{\numberline {6.2}Haplotype Region Output Lines}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 1 - Unique Haplotype Identifier}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 2 - Alignment Name}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 3 - Alignment Length}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 4 - Haplotype Block Number}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 5 - Minimum Number of Haplotypes Supported By Block}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 6 - Number of Repetitions Completed}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 7 - Haplotype Region Number}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 8 - Number of Non-Redundant Sequences}{15}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 9 - Number of Redundant Sequences}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 10 - Number of Defined SNPs Covered}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 11 - Number of Defined SNPs Not Covered}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 12 - Start Position of Haplotype Region}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 13 - End Position of Haplotype Region}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 14 - Length of Haplotype Region}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 15 - Number of Pieces Haplotype Is In}{16}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 16 - Average Sequence Coverage of Haplotype}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 17 - Base Coverage at SNP Positions}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 18 - Alignment Coverage}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 19 - Haplotype Region Assembly at SNP Positions}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 20 - Full Haplotype Region Assembly}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 21 - Reads In Haplotype}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 22 - Ground Truth Sequences Exactly Matched}{17}
+\contentsline {subsubsection}{Haplotype (\texttt {@} prefixed) Column 23 - Ground Truth Sequence Mismatch Counts}{18}
+\contentsline {section}{\numberline {7}Maximizing Quality}{19}
+\contentsline {subsection}{\numberline {7.1}Read Length and Coverage}{19}
+\contentsline {subsection}{\numberline {7.2}SNP Calling and Error Correction}{19}
+\contentsline {subsection}{\numberline {7.3}Sampling Number}{20}
+\contentsline {section}{\numberline {8}How it works}{21}
+\contentsline {section}{\numberline {A}Example TIGR Input Format}{25}
+\contentsline {section}{\numberline {B}Example SAM Input Format}{26}
+\contentsline {section}{\numberline {C}Example SNP Input Format}{27}
