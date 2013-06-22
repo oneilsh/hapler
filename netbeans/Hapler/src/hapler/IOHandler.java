@@ -61,6 +61,8 @@ public class IOHandler {
 	 *      : Removed randomness when running --random-repetitions 1 (input order is used)
 	 *      : Improved speed by moving several ArrayList structures to HashSet when .contains() is used
 	 *	     : Added the --pos-info-tr-reduction option
+	 * 1.71 : Added the ability to ignore gaps in SAM files, allowing the use of SAM files created by
+	 *	     : mapping to a common reference e.g. with bwa. This does ignore information though...
 	 */
 
 	public IOHandler() {
@@ -417,7 +419,7 @@ System.getProperty("line.separator") +
 		optionParser.accepts("human-readable").withOptionalArg().defaultsTo("true").describedAs("If this is true, the output is more or less human readable (haplotype regions are aligned against each other), if this is false, this is not the case, which can drastically reduce the amount of characters that need to be output");
 		optionParser.accepts("show-alignments").withOptionalArg().describedAs("Outputs the alignments in human-friendly format.");
 		optionParser.accepts("pos-info-tr-reduction").withOptionalArg().defaultsTo("false").describedAs("With this option, the overlap graph will only allow overlaps if they share and agree at some SNP; further, we'll compute the transitive reduction of it before path covering (this no longer corresponds to coloring, but should produce faster and more accurate results!)");
-		//optionParser.accepts("ignore-gaps").withOptionalArg().defaultsTo("false").describedAs("This option allows for the use of SAM files that are with respect to a common reference, BUT all insertions in reads relative to the reference will be deleted, and any column of the alignment with deletions relative to the reference will not be alled as SNPs. This is necessary to create a common multiple alignment amongst reads, rather than a center-star alignment against the reference.");
+		optionParser.accepts("ignore-gaps").withOptionalArg().defaultsTo("false").describedAs("This option allows for the use of SAM files that are with respect to a common reference, BUT all insertions in reads relative to the reference will be deleted, and any column of the alignment with deletions relative to the reference will not be alled as SNPs. This is necessary to create a common multiple alignment amongst reads, rather than a center-star alignment against the reference.");
 		optionParser.accepts("version").withOptionalArg().describedAs("Show version information.");
 
 		options = optionParser.parse(argv);
